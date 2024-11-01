@@ -1,0 +1,82 @@
+
+#wpwrap{background-color:#f6f6ff;}
+
+.admin-title{
+	margin: 15px 0px 10px 3px;
+	display: block;
+	font-weight:500;
+}
+.admin-title h3{
+	display:initial;
+	font-weight: 500;
+}
+#save-button{
+	display:block;
+	margin-top: 2%;
+	width: 7%;
+	font-weight: bolder;
+	color:#868288;
+	font-size: 20px;
+	height: 43px;
+}
+
+
+/* MORE INFO POP UP */
+
+/* More Info icon  */
+.def-icon,.clean-icon,.defgt-icon,.init-icon{
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+}
+.def-icon:hover, .clean-icon:hover,.defgt-icon:hover,.init-icon:hover{
+	transform: scale(1.3,1.3) ;
+	cursor:help;
+}
+
+/* container */
+.info-mask{
+	display:block;
+	background-color:transparent;
+	width:34%;
+	height:58px;
+	margin-left:30%;
+	position:absolute;
+	top:30%;
+}
+
+/* popup */
+.def-popup,.clean-popup,.defgt-popup,.init-popup{
+	display:none;
+}
+
+/* jquery class */
+.def-popup.open,.clean-popup.open,.defgt-popup.open,.init-popup.open{	
+	display:contents;
+	
+}
+/* popup content */
+.def-popup p,.clean-popup p,.defgt-popup p,.init-popup p{
+	border:2px solid #7097ca;
+	color:white;
+	padding:12px 12px;
+	font-size:20px;
+	height:115px;
+	background-color:#090909;
+}
+
+/* Close popup icon*/
+.x-close{
+	float: right;
+	bottom: -9px;
+	position: relative;
+	left: 9px;
+	cursor:pointer;
+	z-index:100;
+}
+.x-close:hover{
+	transform: scale(1.1,1.1) ;
+}
+
+
+
